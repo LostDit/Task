@@ -7,7 +7,7 @@ int main()
 {
 	setlocale(LC_ALL, "Russian");
 
-	int	indexLeft = 0, indexRight = 63;
+	int	indexLeft = 0, indexRight = 63;			
 	bool  isFinished = false;
 	for (int i = 0; i < 6; i ++) {
 		
@@ -24,4 +24,4 @@ int main()
 		}
 	}
 	cout << (indexLeft + indexRight) / 2 << " - ваше число?\n";
-}
+}		//Выполнено бинарным поиском
